@@ -183,7 +183,7 @@ const Scene = () => {
 
 ### 2.6 对 Harness 设计的启发
 
-Remotion 官方已经提供 AI 生成相关材料，包括 System Prompt、Dynamic Compilation、`@remotion/eslint-plugin`、Prompt to Motion Graphics 模板和 Agent Skills。这些内容不在本章重复展开，后续 Harness 章节只引用其工程价值：
+Remotion 官方已经提供 AI 生成相关材料，包括 System Prompt、Dynamic Compilation、`@remotion/eslint-plugin`、Prompt to Motion Graphics 模板和 Agent Skills：
 
 | 官方能力 | 对本方案的启发 | 在本文中的落点 |
 |---|---|---|
