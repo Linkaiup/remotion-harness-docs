@@ -181,14 +181,6 @@ const Scene = () => {
 | 成熟度 | 生产可用 | alpha，需要 POC 验证 |
 | 建议定位 | MVP 导出主路径 | P2 低清预览和客户端导出探索 |
 
-**客户端 CSS 约束可压成三类：**
-
-| 分类 | CSS / 能力 | 处理建议 |
-|---|---|---|
-| 可安全使用 | `background`、`border`、`opacity`、`transform`、基础阴影 | 可进入 MVP 组件规范 |
-| 谨慎使用 | `filter`、`mask-image`、复杂字体效果 | 需要浏览器兼容测试和视觉回归 |
-| 禁用或服务端兜底 | `clip-path`、`backdrop-filter`、`mix-blend-mode`、复杂 3D | 不进入客户端 MVP，必要时切服务端渲染 |
-
 ### 2.6 对 Harness 设计的启发
 
 Remotion 官方已经提供 AI 生成相关材料，包括 System Prompt、Dynamic Compilation、`@remotion/eslint-plugin`、Prompt to Motion Graphics 模板和 Agent Skills。这些内容不在本章重复展开，后续 Harness 章节只引用其工程价值：
