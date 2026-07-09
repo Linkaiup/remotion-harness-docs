@@ -97,7 +97,7 @@ const Scene = () => {
 };
 ```
 
-| 机制 | 作用 | 对 Agent / 剪映的影响 |
+| 机制 | 作用 | Agent / 剪映的用法 |
 |---|---|---|
 | `useCurrentFrame()` | 获取当前帧号 | Agent 生成动画时必须用帧驱动，不能用 CSS transition |
 | `interpolate()` | 将帧号映射成透明度、位置、缩放等动画值 | 必须 clamp，避免 opacity 负数、scale 异常 |
